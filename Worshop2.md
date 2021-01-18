@@ -14,7 +14,7 @@ https://jgthms.com/javascript-in-14-minutes/
 
 
 
-The objective is to create your personal website. Something that will tell about you and your projects.
+The objective is to create your personal website. Something that will tell the world about you and your projects.
 1. Create a new empty directory named « mywebsite »
 2. Create IMAGES directory and put a few image from the web in it ( using wget if you can)
 3. In this directory, using your favorite text editor, create a, index.html file. It must make use of these html tags, at least : html, head, title, body,  p, h1, h2, a href, ul, li, img
