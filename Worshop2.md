@@ -54,3 +54,17 @@ Must read :
 https://www.w3schools.com/html/html_responsive.asp
 
 https://www.w3schools.com/css/css_rwd_intro.asp
+
+## WORSHOP 2.4 SHARE YOUR CODE 
+
+Must read :
+
+http://rogerdudler.github.io/git-guide/
+
+https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh
+
+
+- Create a new repository on github
+- Push your local website on your repository
+
+
