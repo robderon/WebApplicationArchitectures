@@ -68,3 +68,10 @@ https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-
 - Push your local website on your repository
 
 
+## LEARN
+
+There will be a quizz at the beginning of our next session. the questions will be relative to the things we've learnt during our first workshop. The two links below are a good recap, and also add some basic knowledge. please read them well.
+
+https://www.preethikasireddy.com/post/how-the-web-works-a-primer-for-newcomers-to-web-development-or-anyone-really
+
+https://www.preethikasireddy.com/post/how-the-web-works-part-ii-client-server-model-the-structure-of-a-web-application
