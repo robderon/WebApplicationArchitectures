@@ -19,7 +19,7 @@ The objective is to create your personal website. Something that will tell the w
 2. Create IMAGES directory and put a few image from the web in it ( using wget if you can)
 3. In this directory, using your favorite text editor, create a, index.html file. It must make use of these html tags, at least : html, head, title, body,  p, h1, h2, a href, ul, li, img
 4. Create FAQ/faq.html.
-5. Create a navigation bar on top, that will be displayed on both pages.
+5. Create a Menu (navigation bar) on top, that will be displayed on both pages.
 
 help:   https://www.w3schools.com/html/html_intro.asp
 
@@ -42,3 +42,15 @@ Once your website is up and running, you should be able to access it from your m
 ## WORSHOP 2.4 MAKE YOUR WEBSITE RESPONSIVE
 
 Now that you can see your website through your mobile phone, you can see that it does not display as well as on your computer screen. Let's make it more decent, by making it responsive : the content will be displayed differently depending on the width in pixel of the client screen.
+
+- The menu should be horizontal on large viewport, and vertical on small viewport. 
+- Images should take the full width of the page, without exceeding their original width.
+- Use the chrome developper tools to show screen size selector and verify your design.
+- Access your website using your phone to confirm your design is good.
+
+
+Must read :
+
+https://www.w3schools.com/html/html_responsive.asp
+
+https://www.w3schools.com/css/css_rwd_intro.asp
