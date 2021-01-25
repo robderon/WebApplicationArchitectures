@@ -68,13 +68,20 @@ https://www.w3schools.com/js/js_htmldom_nodes.asp
 
 download article.html file on github. Add some javasccript code in it to implement the following features : 
 
-- Find all words of more than 7 characters, and highlight them in fluorescent green (use regexps !) 
-- Split blocks of 5 sentences into a paragraph.
+- Find all words of more than 7 characters, and highlight them in fluorescent green  
+you can use regexps, JavaScript String length Property  
+- Split blocks of 5 sentences into a paragraph.  
+you can use regexps, JavaScript Split function
 - Link all occurences of the word "google" to http://www.google.com
 - Display article total word count in big bold letter before the text.
 - Upload on github and send me a PRIVATE link
 
-(to know more about regular expressions : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+Pages that can help you :   
+https://www.w3schools.com/jsref/jsref_length_string.asp
+https://www.w3schools.com/jsref/jsref_replace.asp  
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
+
+
 
 
 
