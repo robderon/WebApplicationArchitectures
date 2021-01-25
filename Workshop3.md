@@ -14,7 +14,7 @@ https://www.preethikasireddy.com/post/how-the-web-works-part-ii-client-server-mo
 ## WS 3.1 Simple HTML / CSS Exercise
 
 
-**Must read:**  https://www.internetingishard.com/html-and-css/css-box-model/ in case you did not.
+**Must read:**  https://www.internetingishard.com/html-and-css/css-box-model/ in case you did not.  
 **Must read:**  https://www.w3schools.com/html/html_blocks.asp
 
 you must understand difference between BLOCK and INLINE Html elements 
