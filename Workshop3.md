@@ -3,11 +3,7 @@
 
 ## QUIZZ 
 
-The questions will be relative to the things we've learnt during Workshop 1. The two links below are a good recap, and also add some basic knowledge. please read them well.
-
-https://www.preethikasireddy.com/post/how-the-web-works-a-primer-for-newcomers-to-web-development-or-anyone-really
-
-https://www.preethikasireddy.com/post/how-the-web-works-part-ii-client-server-model-the-structure-of-a-web-application
+The questions will be relative to the things we've learnt during Workshop 1.
 
 
 
