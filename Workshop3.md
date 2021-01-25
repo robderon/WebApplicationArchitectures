@@ -23,6 +23,9 @@ you must understand difference between BLOCK and INLINE Html elements
 don't put BLOCK elements inside INLINE elements !
 `<P></P>` blocks only allows inline elements. If  you put block elements inside `<P></P>` browsers will treat them as if they were outside `<P></P>`.
 
+**Must read:** https://www.w3schools.com/cssref/css_websafe_fonts.asp
+
+you must understand how fonts are displayed in a browser. Sometimes, a font you choosed will not be available on a visitor's computer. His browser will then have to pick another font. Visually speaking, the results could break all your design work !
 
 
 ### then
@@ -65,10 +68,28 @@ https://www.w3schools.com/js/js_htmldom_nodes.asp
 
 download article.html file on github. Add some javasccript code in it to implement the following features : 
 
-- Find all words of more than 7 characters, and highlight them in fluorescent green
+- Find all words of more than 7 characters, and highlight them in fluorescent green (use regexps !) 
 - Split blocks of 5 sentences into a paragraph.
 - Link all occurences of the word "google" to http://www.google.com
-- display article total word count in big bold letter before the text.
+- Display article total word count in big bold letter before the text.
+- Upload on github and send me a PRIVATE link
 
+(to know more about regular expressions : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+
+
+
+## WS 3.3 JS Vanilla JS / DOM Manipulation  / InnerHTML / Events
+
+
+Create a responsive webpage with buttons : 
+- one that will change the bg color of the page
+- one that will remove the first button
+- one that will Uppercase all the buttons text
+- one that will Lowercase all the buttons text
+- one that will write a huge HELLO WORLD! in the center of the page.
+- one that will play a sound
+- one that when hovered will make disappear all other buttons ( of course hover won't work on mobile)  
+
+Webpage should display nicely on desktop and mobile.
 
 
