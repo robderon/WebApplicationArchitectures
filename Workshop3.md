@@ -3,7 +3,11 @@
 
 ## QUIZZ 
 
-The questions will be relative to the things we've learnt during Workshop 1.
+The questions will be relative to the things we've learnt during Workshop 1. The two links below are a good recap, and also add some basic knowledge. please read them well.
+
+https://www.preethikasireddy.com/post/how-the-web-works-a-primer-for-newcomers-to-web-development-or-anyone-really
+
+https://www.preethikasireddy.com/post/how-the-web-works-part-ii-client-server-model-the-structure-of-a-web-application
 
 
 
@@ -11,7 +15,14 @@ The questions will be relative to the things we've learnt during Workshop 1.
 
 
 **Must read:**  https://www.internetingishard.com/html-and-css/css-box-model/ in case you did not.
+**Must read:**  https://www.w3schools.com/html/html_blocks.asp
+
 you must understand difference between BLOCK and INLINE Html elements 
+
+
+don't put BLOCK elements inside INLINE elements !
+<P></P> only allows inline elements. If  you put block elements inside <p></p> browsers will treat them as if they were outside.
+
 
 
 then
