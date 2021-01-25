@@ -25,7 +25,8 @@ don't put BLOCK elements inside INLINE elements !
 
 
 
-then
+### then
+
 
 - Code the webpage captured on this jpg image using HTML and CSS
 - No JS
@@ -42,4 +43,32 @@ https://github.com/robderon/WebApplicationArchitectures/blob/master/codeme.jpg
 
 
 
-**Must Read:** https://www.springboard.com/blog/history-of-javascript/
+**Must Read:** https://www.springboard.com/blog/history-of-javascript/  
+
+**MUST READ** https://jgthms.com/javascript-in-14-minutes/  
+
+To implement the most basic webpage maniulation in javascript, for instance to modify an html element contents or style, or to detect an event on the webpage and execute some code, you must first understand the DOM and DOM events
+
+**MUST READ** 
+https://www.w3schools.com/js/js_htmldom.asp  
+https://www.w3schools.com/js/js_htmldom_methods.asp  
+https://www.w3schools.com/js/js_htmldom_document.asp  
+https://www.w3schools.com/js/js_htmldom_elements.asp  
+https://www.w3schools.com/js/js_htmldom_html.asp  
+https://www.w3schools.com/js/js_htmldom_css.asp  
+https://www.w3schools.com/js/js_htmldom_events.asp  
+https://www.w3schools.com/js/js_htmldom_eventlistener.asp  
+https://www.w3schools.com/js/js_htmldom_nodes.asp  
+
+
+### then
+
+download article.html file on github. Add some javasccript code in it to implement the following features : 
+
+- Find all words of more than 7 characters, and highlight them in fluorescent green
+- Split blocks of 5 sentences into a paragraph.
+- Link all occurences of the word "google" to http://www.google.com
+- display article total word count in big bold letter before the text.
+
+
+
