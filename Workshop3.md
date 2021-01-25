@@ -21,7 +21,7 @@ you must understand difference between BLOCK and INLINE Html elements
 
 
 don't put BLOCK elements inside INLINE elements !
-<P></P> only allows inline elements. If  you put block elements inside <p></p> browsers will treat them as if they were outside.
+`<P></P>` blocks only allows inline elements. If  you put block elements inside `<P></P>` browsers will treat them as if they were outside `<P></P>`.
 
 
 
