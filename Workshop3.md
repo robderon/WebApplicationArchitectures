@@ -79,6 +79,7 @@ you can use regexps, JavaScript Split function
 Pages that can help you :   
 https://www.w3schools.com/jsref/jsref_length_string.asp  
 https://www.w3schools.com/jsref/jsref_replace.asp  
+https://www.w3schools.com/jsref/jsref_split.asp  
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions  
 
 
