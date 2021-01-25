@@ -30,6 +30,7 @@ then
 - Code the webpage captured on this jpg image using HTML and CSS
 - No JS
 - HTML and CSS must be separated in two files
+- the black borders around the image are the window borders. don't try to code them.
 - Upload on github and send me a PRIVATE link
 
 https://github.com/robderon/WebApplicationArchitectures/blob/master/codeme.jpg
