@@ -1,4 +1,4 @@
-# WorkShop 3 : HTML / CSS / Vanilla JS
+# Web Application Architectures WorkShop 3 : HTML / CSS / Vanilla JS
 
 
 ## QUIZZ 
@@ -11,24 +11,50 @@ https://www.preethikasireddy.com/post/how-the-web-works-part-ii-client-server-mo
 
 
 
-## WS 3.1 Simple HTML / CSS Exercise
 
+## CORRECTIONS QUIZZ
+
+## WS 3.1 Simple HTML / CSS : BLOCK vs INLINE, ELEMENTS POSITIONING , FONTS
+
+### The Box Model, BLOCK Elements, INLINE Elements :
+
+The first thing to learn to code nice Web apps, is how to position elements on the screen, and how content is positionned inside elements.
 
 **Must read:**  https://www.internetingishard.com/html-and-css/css-box-model/ in case you did not.  
 **Must read:**  https://www.w3schools.com/html/html_blocks.asp
+**Must read:**  https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements
 
 you must understand difference between BLOCK and INLINE Html elements 
+PLEASE Remember : 
 
+BLOCK elements `<P>,<H1>,<OL>,<TABLE><DIV>`... :
+- takes full width of the page (flows top to bottom)
+- Have Height and Width, that can be modified
+- Can have block or inline elements as children
 
-don't put BLOCK elements inside INLINE elements !
-`<P></P>` blocks only allows inline elements. If  you put block elements inside `<P></P>` browsers will treat them as if they were outside `<P></P>`.
+INLINE elements `<A>,<EM>,<BR>,<SPAN>`... :
+- Take as much width as needed by their content (flows left to right, like text in a book)  
+- Cannot have height and width. If you try to set it it will be ignored.  
+- Cannot have a block element child. if you put a block element inside an inline element, browser will treat them as if they where outside.  
+- Cannot be positioned
 
-**Must read:** https://www.w3schools.com/cssref/css_websafe_fonts.asp
+INLINE-Block elements `<IMG>` :
+- inline content with height and width `<IMG>`
+
+You can change the behaviour of elements using the display: CSS property  
+
+don't put BLOCK elements inside INLINE elements !  
+dont' try to apply block properties to inline elements !
+
+### Fonts :
 
 you must understand how fonts are displayed in a browser. Sometimes, a font you choosed will not be available on a visitor's computer. His browser will then have to pick another font. Visually speaking, the results could break all your design work !
 
+**Must read:** https://www.w3schools.com/cssref/css_websafe_fonts.asp
 
-### then
+
+
+### Exercise :
 
 
 - Code the webpage captured on this jpg image using HTML and CSS
@@ -40,6 +66,7 @@ you must understand how fonts are displayed in a browser. Sometimes, a font you 
 https://github.com/robderon/WebApplicationArchitectures/blob/master/codeme.jpg
 
 
+### Correction
 
 
 ## WS 3.2 Vanilla JS / DOM Manipulation  / InnerHTML
@@ -66,10 +93,11 @@ https://www.w3schools.com/js/js_htmldom_nodes.asp
 
 ### then
 
-download article.html file on github. Add some javasccript code in it to implement the following features : 
+Download article.html file on github. Add some javasccript code in it to implement the following features : 
 
-- Find all words of more than 7 characters, and highlight them in fluorescent green  
-you can use regexps, JavaScript String length Property  
+- Find all article words ( not in the whole html only the article !) of more than 7 characters, and highlight them in fluorescent green  
+you can use regexps without a loop, or Split() and String length Property with a loop
+
 - Split blocks of 5 sentences into a paragraph.  
 you can use regexps, JavaScript Split function
 - Link all occurences of the word "google" to http://www.google.com
@@ -101,3 +129,16 @@ Create a responsive webpage with buttons :
 Webpage should display nicely on desktop and mobile.
 
 
+
+## For Our Next WorkShop
+You must finish this workshop exercises
+** MUST READ**
+JS canvas, JS Canvas animations
+exercise : code a small game.
+
+## General Web culture
+https://www.reddit.com/r/webdev/
+
+https://www.reddit.com/r/webdev/comments/l566mm/the_urge_to_learn_javascript_with_css_basics/ !
+
+https://www.theatlantic.com/magazine/archive/2008/07/is-google-making-us-stupid/306868/
