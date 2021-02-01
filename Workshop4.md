@@ -71,16 +71,13 @@ And don't forget:
 - If you forgot `<meta name="viewport" content="width=device-width, initial-scale=1">` in the HEAD section of your html, your mobile browser will render at desktop screen width ( 1000px) and then zoom out. You will have a tiny undreadable website on you mobile.
 - Using media queries in your css, you will then be able to give specific styles depending on the screen width.
 
-
-
 ## WS 4.1 CSS animations
 
 CSS animations allows to create animated transitions between values of your css properties such as color, background-color, height, or width. 
 example : https://gameoftheyear.withgoogle.com/
 
-**Must Read**  
+**Must Read:**    
 https://css-tricks.com/almanac/properties/a/animation/
-
 
 
 **Assignement :**
@@ -90,10 +87,10 @@ Create a webpage with (from top to bottom):
 - A control bar (just a space with buttons)
 - A drawing box (just an empty space)
 
-The drawing box must contains a centered 250x250 px div with 1px black solid border  
+The drawing box must contains a centered 250x250 px div with 20px black solid border  
 The control bar must contains:  
-- A HTML color picker ( `<input type="color">` ) to choose div bordercolor with instant effect
-- A HTML color picker ( `<input type="color">` ) to choose div bgcolor with instant effect
+- A HTML color picker ( `<input type="color">` ) to choose div bordercolor at the beginning
+- A HTML color picker ( `<input type="color">` ) to choose div bgcolor at the beginning of animation
 
 - A HTML color picker ( `<input type="color">` ) to choose div bordercolor at the end of animation
 - A HTML color picker ( `<input type="color">` ) to choose div bgcolor at the end of animation
@@ -108,6 +105,14 @@ Instructions :
 - Webpage must work well on mobile.
 - the start button always restart from start.
 - put your code on codepen and send me a private zoom message when done
+
+**How to interact on CSS animations with JS:**  
+https://css-tricks.com/controlling-css-animations-transitions-javascript/  
+
+**How to restart an animation:**  
+https://css-tricks.com/restart-css-animation/
+
+
 
 v1.1  
 
