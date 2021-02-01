@@ -1,4 +1,4 @@
-# Web Application Architectures WorkShop 4 : HTML CANVAS / ANIMATIONS
+# Web Application Architectures WorkShop 4 : CSS Animations, Graphics drawing
 
 
 ## WS3 exercises correction
