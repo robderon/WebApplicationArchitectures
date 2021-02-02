@@ -87,7 +87,9 @@ Instructions :
 - All colors are black by default
 - Webpage must work well on mobile.
 - put your code on codepen and send me a private zoom message when done
-
+- Beware of canvas size and resolution, they are different  
+canvas have a default resolution of 300x150, so if you specify a bigger size in your css, pixel will be stretched, giving your figures ugly borders.  
+https://riptutorial.com/html5-canvas/example/7515/canvas-size-and-resolution
 
 
 **Must Read:**  
