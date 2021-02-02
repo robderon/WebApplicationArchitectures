@@ -58,7 +58,7 @@ https://www.w3schools.com/html/html5_svg.asp
 **Fast Tutorial:**  
 https://www.digitalocean.com/community/tutorials/js-drawing-shapes-canvas-api
 
-**Medium length Tutorial**
+**Medium length Tutorial**  
 https://www.w3schools.com/graphics/canvas_intro.asp
 
 **Long Tutorial:**  
@@ -77,7 +77,7 @@ The control bar will contain :
 - A dropdown menu to choose a form among square, triangle, circle.
 - A HTML color picker ( `<input type="color">` ) to choose a bgcolor (choose your palette )
 - A HTML color picker ( `<input type="color">` ) to choose a border color (choose your palette )
-- A dropdown menu to choose a border thickness ( 2;4;6;8;10;20 px)
+- A dropdown menu to choose the border thickness ( 2;4;6;8;10;20 px)
 - A dropdown menu to choose figure size (20;40;60;80;100;200 px)
 - A button that will display the specified figure and place it at a random place on the viewport.
 
@@ -93,6 +93,13 @@ Instructions :
 **Must Read:**  
 https://www.w3schools.com/jsref/prop_win_localstorage.asp
 
+A javascript Object seem to be the simple way to store your figures specifications.  
+But you can only store key:value pairs in localStorage  
+One solution is to stringify your Object :  
+https://stackoverflow.com/questions/2010892/storing-objects-in-html5-localstorage  
+
+
+
 v1.1 : Store all created figure data using localStorage. when you close and re open your browser, figures re-appear at random position
 
 v1.2 : The figures must never overlap with viewport borders. every figure should fit in the screen.  
@@ -102,4 +109,4 @@ v1.3 : The figures must never overlap with other figures.
 v1.4 : Let's make this visually nice, and avoid clashing colors, by restricting all our color pickers to a predefined color palette.
 use https://coolors.co/ to generate a 5 colors palette. Use `<datalist>` to restrict your color picker.  
 
-v1.5 : Create a new button that generate 10 random figures upon each click  
+v1.5 : Create a new button that generate 10 random figures upon each click
