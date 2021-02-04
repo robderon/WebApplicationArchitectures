@@ -64,7 +64,7 @@ Please note that since Node is running on the same javascript engine than your b
 
 ### 2. Using fetch to load external files, Promises
 
-Wether  Vanilla JS or React, interfaces usually make use of Fetch() to load external files from your browser.
+Wether  Vanilla JS or React, interfaces usually make use of Fetch() to load external files from a distant server (Json from REST API, Images, etc..).
 Fetch is asynchronous, and uses Promises. **You must understand the principle of Promises to become a proficient Javascript Web Developer.**
 
 **Must Read:** 
