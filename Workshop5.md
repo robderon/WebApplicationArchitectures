@@ -92,27 +92,36 @@ canvas have a default resolution of 300x150, so if you specify a bigger size in 
 https://riptutorial.com/html5-canvas/example/7515/canvas-size-and-resolution
 
 
-**Must Read:**  
-https://www.w3schools.com/jsref/prop_win_localstorage.asp
+
+
+
+
+**v1.1** : Store all created figure data using localStorage. when you close and re open your browser, figures re-appear at random position
 
 A javascript Object seem to be the simple way to store your figures specifications.  
 But you can only store key:value pairs in localStorage  
 One solution is to stringify your Object :  
 https://stackoverflow.com/questions/2010892/storing-objects-in-html5-localstorage  
 
+**Must Read for v1.1:**  
+https://www.w3schools.com/jsref/prop_win_localstorage.asp
 
 
-v1.1 : Store all created figure data using localStorage. when you close and re open your browser, figures re-appear at random position
-
-v1.2 : The figures must never overlap with viewport borders. every figure should fit in the screen.  
+**v1.2** : The figures must never overlap with viewport borders. every figure should fit in the screen.  
 
 **2D Collision detection tutorial:**
 https://developer.mozilla.org/en-US/docs/Games/Techniques/2D_collision_detection
 
 
-v1.3 : The figures must never overlap with other figures.   
+**v1.3** : The figures must never overlap with other figures.   
 
-v1.4 : Let's make this visually nice, and avoid clashing colors, by restricting all our color pickers to a predefined color palette.
+**v1.4** : Let's make this visually nice, and avoid clashing colors, by restricting all our color pickers to a predefined color palette.
 use https://coolors.co/ to generate a 5 colors palette. Use `<datalist>` to restrict your color picker.  
 
-v1.5 : Create a new button that generate 10 random figures upon each click
+**v1.5** : Create a new button that generate 10 random figures upon each click
+
+**PROPOSE IDEAS FOR IMPROVEMENT**
+
+## FOR OUR NEXT WORSHOP : 
+
+Read Workshop6.md, Watch the event loop video, Read the pdf on Fetch and Promises.
