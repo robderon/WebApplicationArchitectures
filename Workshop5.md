@@ -86,13 +86,11 @@ Instructions :
 - Every button and color picker must have its label
 - All colors are black by default
 - Webpage must work well on mobile.
+- Dropdown menu are easy to implement using `<SELECT></SELECT>`
 - put your code on codepen and send me a private zoom message when done
 - Beware of canvas size and resolution, they are different  
 canvas have a default resolution of 300x150, so if you specify a bigger size in your css, pixel will be stretched, giving your figures ugly borders.  
 https://riptutorial.com/html5-canvas/example/7515/canvas-size-and-resolution
-
-
-
 
 
 
@@ -124,4 +122,7 @@ use https://coolors.co/ to generate a 5 colors palette. Use `<datalist>` to rest
 
 ## FOR OUR NEXT WORSHOP : 
 
-Read Workshop6.md, Watch the event loop video, Read the pdf on Fetch and Promises.
+- Finish 5.1 
+
+- Read Workshop6.md, Watch the event loop video, Read the pdf on Fetch and Promises. I will ask random questions at the beginning of the Worskhop to make sure all of you watched and read the content. IF you want to learn while watching the video, I advise you to take notes.
+
