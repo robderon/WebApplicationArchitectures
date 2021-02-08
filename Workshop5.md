@@ -14,9 +14,9 @@ getElementById
 
 4. CSS Animations
 
-5. Canvas / Local Storage
+5. Canvas / JSON / Local Storage
 
-6. Server-Side Frameworks
+6. Node.JS / REST API / Fetch / Promises
 
 7. Database Access
 
@@ -105,6 +105,10 @@ https://stackoverflow.com/questions/2010892/storing-objects-in-html5-localstorag
 v1.1 : Store all created figure data using localStorage. when you close and re open your browser, figures re-appear at random position
 
 v1.2 : The figures must never overlap with viewport borders. every figure should fit in the screen.  
+
+**2D Collision detection tutorial:**
+https://developer.mozilla.org/en-US/docs/Games/Techniques/2D_collision_detection
+
 
 v1.3 : The figures must never overlap with other figures.   
 
