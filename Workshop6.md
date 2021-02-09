@@ -155,9 +155,6 @@ When nginx (or Node.js) send static html and js to a client, he will not interpr
 
 
 
-**Must read :**  
-https://github.com/robderon/WebApplicationArchitectures/blob/master/NODE.js%20and%20ExpressJS%20Hello%20World.pdf
-
 
 You can do a direct installation on your sytem, or use Docker.
 
@@ -174,6 +171,9 @@ To be able to edit your node and react code directly from your host editor, you 
 
 **Assignement :**  
 
+
+**Must read before 6.2.1 :**  
+https://github.com/robderon/WebApplicationArchitectures/blob/master/NODE.js%20and%20ExpressJS%20Hello%20World.pdf
 
 6.2.1 : Create a Hello World app using Express.js responding on http://localhost/
 
