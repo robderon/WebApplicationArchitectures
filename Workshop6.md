@@ -99,8 +99,6 @@ https://github.com/robderon/WebApplicationArchitectures/blob/master/JS%20Load%20
 
 
 
-
-
 ## WS 6.1 Our first REST Api client  : 1h max.
 
 Many web services offer access to their data through REST API. It's not your data, but some other service's data, hence the name :  3rd Party API's. Without going too much in details, a REST API is Server code that will respond to HTTP Request, to send and receive data. 
@@ -138,6 +136,7 @@ every article block should display :
     - First Image if there is any
     - The text must flow around the image using css float property (https://www.w3schools.com/css/css_float.asp)
 
+
 - Create a text input and search button to be able to do a keyword search.
 - Send me your codepen in a private zoom message
 
@@ -160,6 +159,8 @@ When nginx (or Node.js) send static html and js to a client, he will not interpr
 https://github.com/robderon/WebApplicationArchitectures/blob/master/NODE.js%20and%20ExpressJS%20Hello%20World.pdf
 
 
+You can do a direct installation on your sytem, or use Docker.
+
 **Launch Node with docker:**  
 
 To be able to edit your node and react code directly from your host editor, you should bind mount a host directory in your container using -v
@@ -180,7 +181,7 @@ To be able to edit your node and react code directly from your host editor, you 
 
 
 **Must read before 6.2.2 :**  
-https://github.com/robderon/WebApplicationArchitectures/blob/master/NODE.js%20and%20ExpressJS%20Static%20Server%2C%20Sending%20data.pdf
+https://github.com/robderon/WebApplicationArchitectures/blob/master/NODE.js%20Static%20Server.pdf
 
 6.2.2 : Make your Figures drawing app available on the server ( 3 static files : html/js/css)
 
