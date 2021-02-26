@@ -16,3 +16,7 @@
   - Run `$ npm start`
   - View the running app at http://localhost:3000
   
+
+MIT License
+
+Copyright (c) 2017 Victoria Kirst (vrk@stanford.edu)
