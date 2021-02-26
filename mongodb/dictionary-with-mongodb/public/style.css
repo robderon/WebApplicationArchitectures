@@ -1,0 +1,26 @@
+body {
+  font-family: Times, serif;
+  font-size: 14pt;
+}
+
+.hidden {
+  display: none;
+}
+
+textarea,
+input[type=text] {
+  font-size: 14pt;
+}
+
+textarea {
+  height: 100px;
+  width: 300px;
+}
+
+#status {
+  color: green;
+}
+
+h2 {
+  font-size: 14pt;
+}
