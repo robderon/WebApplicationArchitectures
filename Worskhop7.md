@@ -35,14 +35,15 @@ This works only if you have admin access to your router, and won't work at schoo
 
 **Assignement :**  
 
-** 7.2.1:** Make your server available to the outside world
+**7.2.1:** Make your server available to the outside world
 
 Then ask some of your classmates to use your app using your url. You can use a telephone only if it's connected to a 3/4/5G network ( to validate that its working from the outside world).
-Every user connecting to your url will be able to add figures. All users figures will be mixed, the server will not remember figures authors.
+Every user connecting to your url will be able to add figures.  
+All users figures will be mixed, the server will not remember figures authors.  
 This could be the desired behaviour, but for now, let's evolve to something more conventionnal :
 
 
-** 7.2.2:** Create a very basic and unsecure authentication system
+**7.2.2:** Create a very basic and unsecure authentication system
 
 On client side , add a field and a button so that user can input its username. he should not be able to send figure until the username has been submitted.  
 Then, modify api requests so that you add a username key/value pair to every figure specification you will send to the server. Also add the username to the pull query ( the query the client makes to get the figure specs)
