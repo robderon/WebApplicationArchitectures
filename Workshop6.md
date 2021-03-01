@@ -126,7 +126,9 @@ This Assignement is wrote for nytimes articles. If you'd prefer, you can do the 
 
 - The domaine name is missing in the images url. find it. You can test the recomposed URL directly in your browser
 
-- Use Fetch() to make your request to the API and get back articles list.
+- Create nytimes.html, nytimes.css
+
+- Use JS Fetch() to make your request to the API and get back articles list.
 
 - Create a basic interface to display this list of articles  
 every article block should display :  
@@ -207,6 +209,7 @@ https://github.com/robderon/WebApplicationArchitectures/blob/master/NODE.js%20an
 
 6.2.4 : Logical next step would have been to add an endpoint so that the client could grab the figures specs from the server, but we don't know yet how to store them on server side ! this will be the subject of Workshop 7.
 
+
 **For next week: Install Mongo, read mongo / mongo express slides.** 
 
 https://github.com/robderon/WebApplicationArchitectures/blob/master/JS%20Async%20_%20Await.pdf
@@ -214,6 +217,7 @@ https://github.com/robderon/WebApplicationArchitectures/blob/master/JS%20Async%2
 https://github.com/robderon/WebApplicationArchitectures/blob/master/Databases%20_%20MongoDB%20introduction.pdf
 
 you can install MongoDB on your computer directly https://www.mongodb.com/try/download/community, or using Docker.
+
 
 
 ## How To Access your server from outside your local network ?
@@ -240,4 +244,6 @@ API means application programming interface. It's a piece of software that allow
 - When your Node javscript code is asking node to become an http server, you are making a local NodeAPI call. same thing as before, your javascript code calls a function coded in Node.js, and many of them can run in parralel. This is why a single Node.js server process is able to handle thousands of concurrent requests.
 
 - When your javascript code needs to load JSON data from a REST Http server, you are making an API Call. It's a very different one from the two precedents, because the two programs are on different machine, it's using TCP/IP, and it's speaking HTTP and JSON.
+
+
 
