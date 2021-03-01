@@ -228,7 +228,7 @@ What can I do ?
 
 - If you have access to your router, you can configure port forwarding. You will give your router public ip adress (the one you got when you go to https://www.whatismyip.com/ for instance) to the outside user, and you will ask your router to redirect all incoming traffic to port 3000 to your local IP.
 
-- Or, maybe simpler, you could use localtunnel. (Ngrok free alternative)
+- Or, maybe simpler, you could use localtunnel ( Ngrok free alternative) : https://github.com/localtunnel/localtunnel
 
 
 ## A few words about different API's  
