@@ -7,6 +7,11 @@
 
 **Assignement :**  
 
+
+**Must read before 7.1.1 :**
+https://github.com/robderon/WebApplicationArchitectures/blob/master/NODE.js%20and%20ExpressJS%20Hello%20World.pdf
+
+
 **7.1.1:** starting from 6.2.3 , modify your Server code so that instead of writing figures specs to console, your server code will make a request to MongoDB to store all figures specs in the database.  
 
 
