@@ -4,8 +4,6 @@ services:
     image: "mongo:latest"
     container_name: mongows
     restart: "on-failure"
-    environment:
-      mavariable: "temp"
   
   nodews:
     image: "node:latest"
