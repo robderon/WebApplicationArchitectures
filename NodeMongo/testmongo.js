@@ -23,11 +23,3 @@ async function main(){
     }
 }
 main().catch(console.error);
-
-
-
-
-function addFigures(figures) {
-    const result = coll.insertMany(figures);
-    console.log(`Inserted ${result.insertedCount} figures.`);
-}
