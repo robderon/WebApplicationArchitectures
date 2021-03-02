@@ -1,0 +1,16 @@
+version : "3"
+services:
+  mongows:
+    image: "mongo:latest"
+    container_name: mongows
+    restart: "on-failure"
+    environment:
+      mavariable: "temp"
+  
+  nodews:
+    image: "node:latest"
+    ports:
+      - "3000:3000"
+    volumes:
+      - "D:\\DROPBOX\\_PROJECTS_CO\\ON\\PROF_ESILV\\WebAppArch\\nodecode\\WS7:/data"
+    command: tail -f /dev/null
