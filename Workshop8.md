@@ -11,14 +11,7 @@ https://www.xda-developers.com/google-chrome-hiding-full-url-experiment/
 chrome://flags/
 
 
-
-
-
-
-
-
-
-
+**Introduction:**
 
 Until now, every communications we made between client and server was  
 - one way / roundtrip  : Client Made Request, Server sent response. 
@@ -54,7 +47,7 @@ Fork code from 7.2.2 ( copy your code in a new folder), Modify client and server
 - Everyfigure you draw is sent to the server. 
 - The server send all received figures to all connected clients. 
 - Clients must draw all received figures together with figures drawn by the user.
-- On client side, do not memorize all figures in a variable. Just each every figure on the canvas when the local user draw it, or when you receive one, and forget about it.
+- On client side, do not memorize all figures in a variable. Just draw a figure on the canvas when the local user draw one, or when you receive one, and forget about it.
 - Display the username of the last painted figure below the canvas
 
 You can remove all mongodb code, this assignement is live only, and will forget all figures when the server shutdown.
