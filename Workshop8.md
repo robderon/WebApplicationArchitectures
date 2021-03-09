@@ -66,6 +66,16 @@ The drawing must be sent live to the server, not when the user release the click
 
 **8.1.3: DDOS the whiteboard**
 Send way too many figures to the board. See what happens. ( Save your work before, just in case..)
+Bottlenecks can appear at different levels : 
+local CPU
+local RAM
+wifi router
+your internet connection
+routers on the way to the server
+Server internet connection
+
+If you're using NGROG, it is another point of possible failure. NGROK implement rate limiting, and will block your requests..
+
 
 **8.1.4: Secure your board**
 Prevent users from overloading the board using rate-limiting.
