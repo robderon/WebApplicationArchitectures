@@ -36,8 +36,9 @@ Starting from the live multiuser whiteboard drawing app, add the following featu
 
 use canvas.toDataURL() method
 
-ONLY 2 FILES in the assignement directory 
-index.html, index.js
+MINIMUM 1 file in your assignment directory : 
+index.html
+You can also add index.js and index.css
 
 ## Assignement 2 : Node.js. 10 points** 
 Starting from the live multiuser whiteboard drawing app, add the save image on server feature :
@@ -96,5 +97,6 @@ Users must never enter the same movie name twice. if they do , don't accept the 
 
 
 
-ONLY 2 FILES in the assignement directory 
-index.html, index.js
+MINIMUM 1 file in your assignment directory : 
+index.html
+You can also add index.js and index.css
