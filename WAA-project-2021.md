@@ -6,9 +6,9 @@ Choose the Assignement you prefer. You don't need to make them all, they can be 
 This document is still a Draft, I will add new assignements, and I may modify some parts.
 
 
-
 **NO VERY EASY TO FIND BUGS**
 This goes without saying, features must work well, with no easy to find bug. I must be able to change user without problems and without the need to reload the page, if it's a multiuser app  (I will test it using multiple usernames.)
+I will use Chrome 89 to review your work.
 ==> TEST YOUR APP BEFORE RELEASING IT
 
 
@@ -33,6 +33,9 @@ I also invite you to never transmit full snippets of your project code.
 Starting from the live multiuser whiteboard drawing app, add the following feature
 
 - Add a button in the menubar to open image in a new tab. the opened image will be static, and can be saved by the user using right click | save image as. 
+
+If you have trouble to display the image in a new tab, you can display it in a new image tag below the live canvas.
+
 
 use canvas.toDataURL() method
 
@@ -100,3 +103,4 @@ Users must never enter the same movie name twice. if they do , don't accept the 
 MINIMUM 1 file in your assignment directory : 
 index.html
 You can also add index.js and index.css
+
