@@ -18,13 +18,13 @@ You won't need more knowledge than what you already know to make your app run
 
 
 
-IaaS offers you access to highly configurable virtual hardware. You will not have your machine. You will create virtual servers, that you can upgrade in time. every IaaS service 
+IaaS offers you access to highly configurable virtual hardware. You will not have your machine. You will create virtual servers, that you can upgrade in time. 
 
 PaaS offers you a higher level of abstraction. here we don't speak about machine. you won't feel the machine, just services that will run your code. You don't need to know about the machine
 
 When using PaaS or IaaS, you will have to learn for each of them how they work, and how to deploy. They all have their own way to call things, their own processes, their own tools. There is NO STANDARD way to go.
 
-Container Hosting allows you to deploy a docker container image to an online host, by giving the hosting platform the url of your image.
+Container Hosting allows you to deploy a docker container image to a online host. You will need to build and push your image to the host registry.
 
 
 
