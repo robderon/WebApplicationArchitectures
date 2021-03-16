@@ -53,6 +53,7 @@ open in web browser
 ## DEPLOYING A DOCKER CONTAINER ON HEROKU
 
 First, you must understand that heroku don't let you chose the port your web server will listen to. The port to bind to is assigned by Heroku as the PORT environment variable. This must be implemented directly in your node server code, by using process.env.PORT
+at the end, your server will be available on the default web port: 80, so will not have to write it in your url. but this is heroku internal "sauce"
 
 https://devcenter.heroku.com/articles/runtime-principles
 
