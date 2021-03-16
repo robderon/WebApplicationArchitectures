@@ -34,7 +34,7 @@ Container | Jelastic, Google Cloud Run, Amazon ECS, Azure, Heroku...
 Dedicated | OVH, Scaleway...
 
 
-( Please note that big hosting brands play multiple categories)
+( Please note that big hosting brands play in multiple categories)
 
 
 
