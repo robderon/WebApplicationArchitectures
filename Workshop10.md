@@ -16,8 +16,6 @@ Also, you should understand that when logged in on a dedicated server shell usin
 You won't need more knowledge than what you already know to make your app run
 
 
-
-
 IaaS offers you access to highly configurable virtual hardware. You will not have your machine. You will create virtual servers, that you can upgrade in time. 
 
 PaaS offers you a higher level of abstraction. here we don't speak about machine. you won't feel the machine, just services that will run your code. You don't need to know about the machine
@@ -36,7 +34,7 @@ Container | Jelastic, Google Cloud Run, Amazon ECS, Azure, Heroku...
 Dedicated | OVH, Scaleway...
 
 
-( Please note that big could brands are in multiple categories)
+( Please note that big hosting brands play multiple categories)
 
 
 
