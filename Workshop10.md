@@ -200,7 +200,7 @@ The meaning is not always in the final product, but in the path to go there. lea
 
 of course, if you find yourself in a situation where you don't like the final product, don't learn anything, and work alone : RUN !
 
-in any case, you should ALWAYS have your side projects, your personal web projects. This what I meant when I said "have fun" This is how Dailymotion came to life. I had my side projects, since the beginning of my web career. 
+in any case, you should ALWAYS have your side projects, your personal web projects. This is what I meant when I said "have fun" This is how Dailymotion came to life. I had my side projects, since the beginning of my web career. 
 
 Thank you for your participation to this module. I hope you've learnt things that will help you **build projects you love**, and **have fun** while coding !
 
