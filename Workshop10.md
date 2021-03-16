@@ -180,18 +180,18 @@ https://devcenter.heroku.com/articles/container-registry-and-runtime
 
 API you should try :
 
-google doc api
-spotify
-youtube
-tmdb
+- google doc api
+- spotify
+- youtube
+- tmdb
 
 
 Things you should know how to do
 
-File uploads
-Create secure login  ( and github/fb/google connect )
-CRUD
-Handle touchscreen in javascript
+- File uploads
+- Create secure login  ( and github/fb/google connect )
+- CRUD
+- Handle touchscreen in javascript
 
 ## BUT MOST OF ALL, I BEG YOU : HAVE FUN !
 
@@ -203,7 +203,7 @@ of course, if you find yourself in a situation where you don't like the final pr
 
 in any case, you should ALWAYS have your side projects, your personal web projects. This what I meant when I said "have fun" This is how Dailymotion came to life. I had my side projects, since the beginning of my web career. 
 
-Thank you for your participation to this module. I hope you've learnt things that will help you build projects you love, and have fun while coding !
+Thank you for your participation to this module. I hope you've learnt things that will help you **build projects you love**, and **have fun** while coding !
 
 
 
