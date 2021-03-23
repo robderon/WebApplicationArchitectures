@@ -1,7 +1,8 @@
 # Web Application Architectures Project 2021
 
 
-Below is a list of 5 Web projects of different nature and size. Choose the Assignements you prefer WITHIN A LIMIT OF 25 POINTS. You don't need to make them all, they can be done separately. The maximum score for each Assignement is given. The more you do, the more points you can get.
+Below is a list of 4 Web projects of different nature and size. 
+Assignements must be done separately, except Assignements 1 & 2 that you can submit using a single URL. The maximum score for each Assignement is given. The more you do, the more points you can get. Choose the Assignements you prefer WITHIN A LIMIT OF 25 POINTS. If you have more than 20 points after grading, your final note will be 20.
 
 
 This project is individual and can't be done in pairs or groups.
@@ -15,10 +16,6 @@ April 5th 11 AM
 
 I will send you a link to a online form to submit your work
 
-**NO VERY EASY TO FIND BUGS**
-This goes without saying, features must work well, with no easy to find bug. I must be able to change user without problems and without the need to reload the page, if it's a multiuser app  (I will test it using multiple usernames.)
-I will use Chrome 89 to review your work.
-==> TEST YOUR APP BEFORE RELEASING IT
 
 
 **Available on a public web url**
@@ -57,9 +54,12 @@ I will start with full points for every assignement. then :
 Of course, i will not search in the image drawing app base code.
 If detector detect similarities, I will do a manual check, and remove points to all assignements with similar code.
 
-2. I will click on your deployed URL and test the product as an end user. I will remove points for every major bug I find.
+2. I will click on your deployed URL and test the product as an end user. 
+This goes without saying, features must work well, with **NO EASY TO FIND BUGS**. I must be able to change user without problems and without the need to reload the page, if it's a multiuser app  (I will test it using multiple usernames.) I will use Chrome 89 to review your work.
+I will remove points for every major bug I find.
 You will have no points if the app is not working.
 => BE NICE WITH USERS : TEST YOUR APP, DEBUG YOUR CODE
+
 
 3. Every function must be understandable without clicking : put good labels on your buttons and links. I will remove points if functions are note clearly presented
 
