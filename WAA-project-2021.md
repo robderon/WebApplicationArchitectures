@@ -44,8 +44,6 @@ I also invite you to never transmit full snippets of your project code.
 
 
 
-
-
 ## Assignements Grading
 
 I will start with full points for every assignement. then : 
@@ -82,6 +80,9 @@ MINIMUM 1 file in your assignment directory :
 index.html
 You can also add index.js and index.css
 
+You can start from this code base from one of your classmate :
+https://github.com/Tnemlec/Whiteboard
+
 ## Assignement 2 : Node.js + static html + client-side js. 10 points** 
 Starting from the live multiuser whiteboard drawing app, add the save image on server feature :
 
@@ -113,6 +114,9 @@ package.json
 a public directory including your static files
 
 NEVER UPLOAD node_modules directory to github, modules will be downloaded by npm start from package.json
+
+You can start from this code base from one of your classmate :
+https://github.com/Tnemlec/Whiteboard
 
 
 
@@ -163,3 +167,8 @@ Keep track of all game sessions, and display a "top 10 high scores" at the end o
 
 You will of course need to create appropriate collection in mongodb to keep track of gaming sessions : username, score, date
 
+
+The assignement directory will contain your node.js file structure including
+server.js ( your main node code)
+package.json
+a public directory including your static files
