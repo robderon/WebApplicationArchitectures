@@ -1,10 +1,19 @@
 # Web Application Architectures Project 2021
 
 
-Choose the Assignement you prefer. You don't need to make them all, they can be done separately. Your maximum score for each Assignement is given. The more you do, the more points you can get.
+Below is a list of 5 Web projects of different nature and size. Choose the Assignements you prefer WITHIN A LIMIT OF 25 POINTS. You don't need to make them all, they can be done separately. The maximum score for each Assignement is given. The more you do, the more points you can get.
+
+
+This project is individual and can't be done in pairs or groups.
 
 This document is still a Draft, I will add new assignements, and I may modify some parts.
 
+
+**DUE DATE**
+
+April 5th 11 AM
+
+I will send you a link to a online form to submit your work
 
 **NO VERY EASY TO FIND BUGS**
 This goes without saying, features must work well, with no easy to find bug. I must be able to change user without problems and without the need to reload the page, if it's a multiuser app  (I will test it using multiple usernames.)
@@ -16,6 +25,8 @@ I will use Chrome 89 to review your work.
 Apps must be available on a public web url. 
 
 Use Heroku, Azure, GCP, AWS, or any other service. You can also host it yourself, but the server must be up when I will review your work.
+
+
 
 **Publish all code on github**
 Create one repository that will contain all your assignements
@@ -29,7 +40,35 @@ I invite you to work together, to ask for help and help your classmates.
 I also invite you to never transmit full snippets of your project code.
 
 
-## Assignement 1 : Static html + js. 5 points** 
+
+**UI Tips**
+- Be nice with your users : if you have a text field, accept submission with the enter key. this will minimize keyboard-mouse round-trips.
+( https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp )
+
+
+
+
+
+## Assignements Grading
+
+I will start with full points for every assignement. then : 
+
+1.  Code plagiarism detector will check originality of your code.
+Of course, i will not search in the image drawing app base code.
+If detector detect similarities, I will do a manual check, and remove points to all assignements with similar code.
+
+2. I will click on your deployed URL and test the product as an end user. I will remove points for every major bug I find.
+You will have no points if the app is not working.
+=> BE NICE WITH USERS : TEST YOUR APP, DEBUG YOUR CODE
+
+3. Every function must be understandable without clicking : put good labels on your buttons and links. I will remove points if functions are note clearly presented
+
+4. I can't ask you to make it beautiful, but I can ask you to make it Readable. Don't overcharge display with disturbing images or colors. Use web fonts or google fonts.
+
+5. Then I will briefly watch your code. I will remove points if code is hard to read because of poor indentation. I will remove points if I see not meaningful variable and functions names. Meaningful variable names helps you debug your code, and helps others to read it. 
+
+
+## Assignement 1 : Static html + client-side js. 5 points** 
 Starting from the live multiuser whiteboard drawing app, add the following feature
 
 - Add a button in the menubar to open image in a new tab. the opened image will be static, and can be saved by the user using right click | save image as. 
@@ -43,7 +82,7 @@ MINIMUM 1 file in your assignment directory :
 index.html
 You can also add index.js and index.css
 
-## Assignement 2 : Node.js. 10 points** 
+## Assignement 2 : Node.js + static html + client-side js. 10 points** 
 Starting from the live multiuser whiteboard drawing app, add the save image on server feature :
 
 
@@ -103,4 +142,24 @@ Users must never enter the same movie name twice. if they do , don't accept the 
 MINIMUM 1 file in your assignment directory : 
 index.html
 You can also add index.js and index.css
+
+## Assignement 4 : Node.js + static html + client-side js. 10 points** 
+
+Create a Gaming Screenshots Quizz app.
+
+1. Make a selection of game screenshots. This must be gameplay screenshots, not intermediary scenes or other non game screens. Minimum 20 screens.
+
+2. Create a Mongodb collections for the questions. Each document will contain at least id, image name and game name. 
+
+3. Create an admin web tool, allowing the administrator to create the questions. It will only display the list of existing questions, with a button to delete the question, a button for modification. And a button "create question" must appear on top of the list.
+
+The edit/create form show two fields : one for image url, one for game name. and a submit button. once submitted, the Node.js server must download the image and store it in one directory, and then create the question in the database.
+
+3. Create a playing interface. User must first enter his name, the pictures are shown one by one, with a text field under it. Be nice with your user, use a fuzzy matching library to tolerate some misspellings.
+https://www.npmjs.com/package/fuzzy-matching , see example "quizzes or user inputs with certain expected answers" on bottom of the page.
+You must show 10 questions to the user in random order.
+Display its score at the end.
+Keep track of all game sessions, and display a "top 10 high scores" at the end of the game, with username, and score.
+
+You will of course need to create appropriate collection in mongodb to keep track of gaming sessions : username, score, date
 
